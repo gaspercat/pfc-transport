@@ -1,0 +1,234 @@
+html{
+    margin:0px;
+    padding:0px;
+    min-width:1150px;
+}
+
+body{
+    position:relative;
+    
+    width:900px;
+    height:550px;
+    
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.bt_logout{
+    width:20px;
+    height:20px;
+    background-image:url('/img/a_logout_off.png');
+}
+
+div.bt_logout:hover{
+    cursor:pointer;
+    background-image:url('/img/a_logout_on.png');
+}
+
+/* ************************************************ */
+/* ** WINDOW                                     ** */
+/* ************************************************ */
+
+div.window_menu{
+    z-index:2;
+}
+
+div.window_content{
+    z-index:1;
+}
+
+/* ************************************************ */
+/* ** GUI :: LIST                                ** */
+/* ************************************************ */
+
+td.bt_add{
+    width:25px;
+    height:25px;
+    background-image:url('/img/a_add_off.png');
+}
+
+td.bt_add:hover{
+    cursor:pointer;
+    background-image:url('/img/a_add_on.png');
+}
+
+td.bt_del{
+    width:25px;
+    height:25px;
+    background-image:url('/img/a_del_off.png');
+}
+
+td.bt_del:hover{
+    cursor:pointer;
+    background-image:url('/img/a_del_on.png');
+}
+
+td.bt_upd{
+    width:25px;
+    height:25px;
+    background-image:url('/img/a_upd_off.png');
+}
+
+td.bt_upd:hover{
+    cursor:pointer;
+    background-image:url('/img/a_upd_on.png');
+}
+
+/* ************************************************ */
+/* ** GUI :: TABS                                ** */
+/* ************************************************ */
+
+td.gui_tabs_tab{
+    width:120px;
+    text-align:center;
+    cursor:pointer;
+}
+
+td.gui_tabs_selected{
+    background-color:#FFF;
+    border-left:1px solid #CCC;
+    border-right:1px solid #CCC;
+    border-top:1px solid #CCC;
+}
+
+td.gui_tabs_uselected{
+    background-color:#EEE;
+}
+
+/* ************************************************ */
+/* ** GUI :: MENU                                ** */
+/* ************************************************ */
+
+table.gui_menu{
+    position:absolute;
+    border-collapse:collapse;
+    border-left:1px solid #CCC;
+    border-right:1px solid #CCC;
+    border-bottom:1px solid #CCC;
+}
+
+td.gui_menu_button{
+    height:30px;
+    background-color:#FFF;
+    text-align:left;
+    padding-left:10px;
+    cursor:pointer;
+}
+
+td.gui_menu_button:hover{
+    background-color:rgb(245, 245, 245);
+}
+
+/* ************************************************ */
+/* ** GUI :: LIST                                ** */
+/* ************************************************ */
+
+div.gui_list{
+    position:absolute;
+    background-color:#EEE;
+    padding:5px;
+}
+
+table.gui_list{
+    width:100%;
+    height:100%;
+    border-collapse:collapse;
+    background-color:#FFF;
+}
+
+tr.gui_list_header{
+    height:25px;
+    background-color:#EEE;
+}
+
+tr.gui_list_footer{
+    height:25px;
+    background-color:rgb(245, 245, 245);
+}
+
+tr.gui_list_selected{
+    background-color:#CCF;
+    cursor:default;
+}
+
+tr.gui_list_uselected{
+    background-color:#FFF;
+    cursor:default;
+}
+
+tr.gui_list_uselected:hover{
+    background-color:rgb(230, 230, 255);
+}
+
+tr.gui_list_summary{
+    cursor:default;
+}
+
+/* ************************************************ */
+/* ** GUI :: CALENDAR                            ** */
+/* ************************************************ */
+
+td.gui_calendar_left{
+    width:20px;
+    text-align:center;
+    cursor:pointer;
+}
+
+td.gui_calendar_right{
+    width:20px;
+    text-align:center;
+    cursor:pointer;
+}
+
+td.gui_calendar_cell{
+    border:1px solid #FFF;
+    cursor:default;
+}
+
+td.gui_calendar_cell:hover{
+    background-color:#EEF;
+}
+
+td.gui_calendar_today{
+    background-color:#EEE;
+}
+
+td.gui_calendar_marked{
+    background-color:#FFB;
+}
+
+td.gui_calendar_selected{
+    background-color:#CCF;
+}
+
+/* ************************************************ */
+/* ** GUI :: SCHEDULE                            ** */
+/* ************************************************ */
+
+div.gui_schedule_tag{
+    cursor:pointer;
+}
+
+div.gui_schedule_copy{
+    width:25px;
+    height:25px;
+    background-image:url('/img/a_copy_off.png');
+    cursor:pointer;
+}
+
+div.gui_schedule_copy:hover{
+    background-image:url('/img/a_copy_on.png');
+}
+
+div.gui_schedule_paste{
+    width:25px;
+    height:25px;
+    background-image:url('/img/a_paste_off.png');
+    cursor:pointer;
+}
+
+div.gui_schedule_paste:hover{
+    background-image:url('/img/a_paste_on.png');
+}

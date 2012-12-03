@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Redirect verifiers to their corresponding file
+RewriteRule ^.*google([a-zA-Z0-9]*)\.html chk/google.html [NC,L]
+
+# Redirect robots to the robots.txt file
+RewriteRule ^.*robots\.txt chk/robots.txt [NC,L]
+
+# Redirect direct access files to their actual paths
+RewriteRule ^(.*)\.(css) $1.$2 [NC,L]
+RewriteRule ^(.*)\.(js) $1.$2 [NC,L]
+RewriteRule ^(.*)\.(png|jpg) $1.$2 [NC,L]
+RewriteRule ^(.*)\.(ttf) $1.$2 [NC,L]
+
+# Redirect everything else to index.php
+RewriteRule ^.* index.php [NC,L]
